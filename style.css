@@ -1,0 +1,79 @@
+body{
+    background-color: papayawhip;
+}
+
+
+.container{
+    display: flex;
+    width: 500px;
+    margin: 10% auto 0px auto;
+}
+
+
+img{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.container__right{
+    width: 200px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius:0px 20px 20px 0px;
+    height: 350px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+p{
+    font-size: 14px;
+    color: grey;
+    margin-right: 20px;
+}
+
+
+.container__right__perfume{
+    letter-spacing: 4px;
+    font-weight: lighter;
+    color: grey;
+}
+
+
+.container__right__perfume-name{
+    font-weight: 700;
+    font-size:30px;
+    text-align:left;
+    justify-content: center;
+    color: hsl(212, 21%, 14%);  
+}
+
+.container__right__description{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+button{
+    border-radius: 6px;
+    width: 200px;
+    height: 30px;
+    background-color: #148172;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    margin-left: -13px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+.container__right__big-price{
+    color: #148172;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container__right__small-price{
+    color: grey;
+    font-size: 10px;
+}
